@@ -7,12 +7,12 @@ import Skeleton from '@material-ui/lab/Skeleton';
 import PersonIcon from '@material-ui/icons/Person';
 
 // Fails (when cache is clean):
-// import Avatar from '@material-ui/core/Avatar';
-// import Alert from '@material-ui/lab/Alert';
+import Avatar from '@material-ui/core/Avatar';
+import Alert from '@material-ui/lab/Alert';
 
 // Works: also caches other components which makes the previous imports not fail
-import { Avatar } from '@material-ui/core';
-import { Alert } from '@material-ui/lab';
+// import { Avatar } from '@material-ui/core';
+// import { Alert } from '@material-ui/lab';
 
 // ^ Both seem to work on build (when there's no alias defined in snowpack.config.js)
 
