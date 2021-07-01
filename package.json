@@ -1,0 +1,23 @@
+{
+  "name": "mui-snowpack-issue",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "snowpack dev",
+    "dev-reload": "snowpack dev --reload",
+    "build": "snowpack build",
+    "start": "node src/server/app.js"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "@snowpack/plugin-webpack": "^3.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "snowpack": "3.7.1"
+  }
+}
